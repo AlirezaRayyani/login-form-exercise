@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(154, 109, 3);
+  height: 100vh;
+  text-align: center;
+}
+
+.sectionPart {
+  background-color: rgb(150, 150, 150);
+  border-radius: 3px;
+  border: 1px solid black;
+  width: 40%;
+  display: inline-block;
+  padding: 20px;
+}
+
+.formSection {
+  text-align: center;
+}
+
+.formSection .halfLineInput {
+  width: 41%;
+  display: inline-block;
+  text-align: justify;
+  padding-left: 5px;
+}
+.formSection .fullLineInput {
+  width: 95%;
+  display: inline-block;
+  text-align: justify;
+  padding-left: 50px;
+}
+
+.halfLineInput input::placeholder {
+  padding: 8px;
+  color: black;
+}
+.fullLineInput input::placeholder {
+  padding: 8px;
+  color: black;
+}
+
+input {
+  width: 80%;
+  height: 35px;
+  margin: 15px;
+  border-radius: 3px;
+}
+
+.sectionPart span {
+  color: rgb(195, 4, 93);
+}
+
+.checkboxSection {
+  text-align: justify;
+  padding-left: 52px;
+}
+.checkboxSection label {
+  vertical-align: super;
+  font-size: 15px;
+}
+.checkboxSection input {
+  vertical-align: sub;
+  width: 15px;
+}
+
+button{
+  width: 75%;
+  height: 40px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover{
+  box-shadow: 0 0 10px black;
+}
+button:focus{
+  box-shadow: 0 0 10px black;
+}
